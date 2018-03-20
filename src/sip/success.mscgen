@@ -1,0 +1,15 @@
+msc {
+	client,server;
+
+	client =>> server [ label="INVITE" ];
+	server =>> client [ label="TRYING" ];
+	server =>> client [ label="SESSION_IN_PROGRES" ];
+	...;
+	server =>> client [ label="RINGING" ];
+	...;
+	server =>> client [ label="OK" ];
+	client box server [ label="Voice call. Media."];
+
+	client =>> server [ label="BYE" ];
+	server =>> client [ label="OK" ];
+}
