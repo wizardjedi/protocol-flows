@@ -1,0 +1,10 @@
+{
+	"sections":[
+		{"name":"isup","protocol":"ISDN User Part","description":""},
+		{"name":"smpp","protocol":"Short Message Pear-to-Pear","description":""},
+		{"name":"sip","protocol":"Short Message Pear-to-Pear","description":""},
+		{"name":"m3ua","protocol":"MTP3 User Adaptation","description":""},
+		{"name":"map","protocol":"Mobile Application Part","description":""},
+		{"name":"cap","protocol":"CAMEL Application Part","description":""}
+	]
+}
